@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tateti</title>
+  </head>
+  <body>
+    <h1>Turno: <span id="turno">X</span></h1>
+    <h1>Ganador: <span id="ganador"></span></h1>
+
+    <div class="tablero">
+      <table>
+        <tr>
+          <td id="pos1" onclick="colocar('pos1')"></td>
+          <td id="pos2" onclick="colocar('pos2')"></td>
+          <td id="pos3" onclick="colocar('pos3')"></td>
+        </tr>
+        <tr>
+          <td id="pos4" onclick="colocar('pos4')"></td>
+          <td id="pos5" onclick="colocar('pos5')"></td>
+          <td id="pos6" onclick="colocar('pos6')"></td>
+        </tr>
+        <tr>
+          <td id="pos7" onclick="colocar('pos7')"></td>
+          <td id="pos8" onclick="colocar('pos8')"></td>
+          <td id="pos9" onclick="colocar('pos9')"></td>
+        </tr>
+      </table>
+    </div>
+
+    <input
+      class="button"
+      type="button"
+      id="btnReset"
+      value="Reiniciar"
+      disabled
+      onclick="reset()"
+    />
+  </body>
+
+  <script src="tateti.js"></script> 
+</html>

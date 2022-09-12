@@ -1,0 +1,27 @@
+body{
+    width: 350px;
+    margin: 300px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+tr td{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(214, 255, 200);
+    border: 1px solid black;
+    padding: 30px;
+
+    text-align: center;
+    font-size: 30px;
+}
+
+tr td:hover{
+    cursor: pointer;
+    background-color: rgb(189, 255, 167);
+    transition: .3s;
+}
+
+.rojo{
+    color: red;
+}
